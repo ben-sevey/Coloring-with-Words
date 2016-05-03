@@ -95,7 +95,7 @@ function wordToImage(strArr) {
 	var textColors = [];	//Save the color data of words to reduce calculations on subsequent passes
 	var currentWordCounter = 0;	//Used to iterate through words within the text. Independent of the drawing loop.
 	
-	var pxWidth = 4;	//Adjust the image scaling. width%pxWidth must be zero for now
+	var pxWidth = $("input[name=px-size]:checked", "#px-size-selector").val();//4;	//Adjust the image scaling. width%pxWidth must be zero for now
 	var width = 500;	//Dimensions of the drawing area. Not required to be equal to
 	var height = 300;		//the canvas dimensions
 	

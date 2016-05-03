@@ -19,6 +19,9 @@ button {
 	color: #ffffff;
 }
 
+canvas {
+	margin-top: 20px;
+}
 button:hover {
 	background-color: #000080;
 	color: #ffffff;
@@ -26,7 +29,7 @@ button:hover {
 
 #ui-container {
 	width: 500px;
-	height: 900px;
+	height: 1125px;
 	
 	background-color: #ffffff;
 	color: #000000;
@@ -46,6 +49,10 @@ button:hover {
 	border: solid 2px #000000;
 	
 	text-transform: uppercase;
+}
+
+#px-size-selector {
+	margin-top: 10px;
 }
 
 #multi-word-input {
